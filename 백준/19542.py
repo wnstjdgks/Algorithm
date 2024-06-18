@@ -18,8 +18,6 @@ def calculate_cost(node : int):
 
     visited_node[node] = True
 
-    _node = node
-    depth = max_depths[node]
     if max_depths[node] <= D:
         return 2
 
